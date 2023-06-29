@@ -6,3 +6,11 @@ Vue.createApp({
         }
     }
 }).mount('#app')
+Vue.createApp({
+    data() {
+        return {
+            firstName: 'Jane',
+            name: "Doe"
+        }
+    }
+}).mount('#app1')
