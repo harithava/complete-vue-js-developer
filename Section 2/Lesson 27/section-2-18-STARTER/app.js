@@ -9,6 +9,12 @@ let vm = Vue.createApp({
     computed: {
         circle_classes() {
             return { purple: this.isPurple }
+        },
+        circle_style() {
+            return [
+                { width: this.size + 'px', height: this.size + 'px', lineHeight: this.size + 'px'}, 
+                { transform: 'rotate(30deg)'}
+              ]
         }
     }
 }).mount('#app')
