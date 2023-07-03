@@ -21,10 +21,10 @@ export default {
   opacity: 0;
 }
 .fade-enter-active {
-  transition: all 3s linear;
+  transition: all 0.25s linear;
 }
 .fade-leave-to {
-  transition: all 3s linear;
+  transition: all 0.25s linear;
   opacity: 0;
 }
 </style>
