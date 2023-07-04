@@ -107,6 +107,12 @@ h2 {
   transition: all 1s linear;
   opacity: 0;
 }
+.fade-move {
+  transition: all 1s linear;
+}
+.fade-leave-active {
+  position: absolute;
+}
 
 .zoom-enter-active {
   animation: zoom-in 1s linear forwards;
