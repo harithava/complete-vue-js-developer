@@ -1,6 +1,6 @@
 <template>
   <div>
-    <slot :user="user"></slot>
+    <slot :user="user" :favorites="favorites"></slot>
   </div>
 </template>
 
