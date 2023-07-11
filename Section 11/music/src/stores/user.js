@@ -19,6 +19,10 @@ export default defineStore("user", {
         country: values.country,
       });
 
+      await userCred.user.updateProfile({
+        displayName: values.name,
+      });
+
       this.userLoggedIn = true;
     },
   },
